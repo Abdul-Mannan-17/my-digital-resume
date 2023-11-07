@@ -167,28 +167,3 @@ st.write(
 
 """
 )
-
-
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyB2cj1-1X1ywxMz0JypU3BgGwwKOny6CgM",
-    authDomain: "digital-cv-caad4.firebaseapp.com",
-    projectId: "digital-cv-caad4",
-    storageBucket: "digital-cv-caad4.appspot.com",
-    messagingSenderId: "1010512043108",
-    appId: "1:1010512043108:web:f1cfb52c01f3b7a4cd9371",
-    measurementId: "G-JFNLJMV8R4"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
